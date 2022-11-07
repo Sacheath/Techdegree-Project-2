@@ -40,13 +40,6 @@ def create_teams():
         team_3.append(nexp_players.pop())
     return team_1, team_2, team_3
 
-
-# team_1 = sorted(team_1, key=lambda k: k['height'])
-# team_2 = sorted(team_2, key=lambda k: k['height'])
-# team_3 = sorted(team_3, key=lambda k: k['height'])
- 
-
-
 # Function for start-up menu or welcome message
 def welcome_menu():
     print("\nWelcome to Team Treehouse's Project #2: Basketball Team Stats Tool")
